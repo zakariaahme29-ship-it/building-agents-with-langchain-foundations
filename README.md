@@ -1,34 +1,93 @@
 # 🤖 Building Agents with LangChain Foundations
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![LangChain](https://img.shields.io/badge/LangChain-Integration-green)
-![LangGraph](https://img.shields.io/badge/LangGraph-Advanced-orange)
-![Status](https://img.shields.io/badge/Status-Active_Daily_Updates-brightgreen)
+A hands-on repository documenting my journey of learning and building modern AI Agents using **LangChain** and **LangGraph**.
 
-## 📖 Overview
-Welcome to my technical log and advanced guide on LLM orchestration! This repository serves as a foundational 3-stage curriculum, documenting hands-on experience building complex, production-ready AI agent architectures using **LangGraph** and **LangChain**.
+The goal of this repository is not only to implement AI agents, but also to understand the engineering concepts behind them through detailed notebooks, practical implementations, and capstone projects.
 
-This is not just a collection of working code; it is a deep dive into **real-world implementation, debugging, and advanced state management**. For every concept, I document the common pitfalls, architectural bottlenecks, and the exact debugging steps required to solve them.
+---
 
-## 🗺️ Curriculum & Stages
+# 📚 Repository Roadmap
 
-### 🟢 Stage 1: Agent Foundations & Hierarchies (Current Focus)
-**Goal:** Master tool calling and multi-agent delegation.
-* **Concepts:** Building a Supervisor agent that delegates tasks to specialized sub-agents.
-* **Debugging Focus:** Resolving `coroutine` errors and handling third-party API rate limits.
+## ✅ Stage 1 — Agent Foundations
 
-### 🟡 Stage 2: Memory & State Management (Coming Soon)
-**Goal:** Optimize the LLM context window for cost and accuracy.
-* **Concepts:** Shared memory, `SummarizationMiddleware`, and message trimming.
-* **Debugging Focus:** Preventing LLM context overflow and filtering out raw `ToolMessage` clutter.
+Learn the fundamental building blocks required to create modern AI agents.
 
-### 🔴 Stage 3: Production-Ready Control Flow (Coming Soon)
-**Goal:** Implement safe, dynamic, and human-supervised automation.
-* **Concepts:** Human-in-the-Loop (HITL), Dynamic Model Routing, and Dynamic Prompt Injection.
-* **Debugging Focus:** Managing `thread_id` continuity and resolving `AttributeError` in context schemas.
+### Topics Covered
 
-## 🚀 Getting Started
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/YourUsername/building-agents-with-langchain-foundations.git](https://github.com/YourUsername/building-agents-with-langchain-foundations.git)
-   cd building-agents-with-langchain-foundations
+- Foundation AI Models
+- Agent Tools
+- Short-Term Memory
+- Multimodal Models
+
+### 🚀 Capstone Project
+
+**AI Chef Assistant**
+
+A multimodal AI assistant capable of:
+
+- Understanding user requests
+- Analyzing food images
+- Searching the web when needed
+- Maintaining conversation memory
+- Generating personalized recipes
+
+---
+
+## 🚧 Stage 2 — Memory & State Management
+
+**Status:** Coming Soon
+
+Topics will include:
+
+- Checkpointers
+- StateGraph
+- Persistent Memory
+- Conversation State
+- Memory Architectures
+
+---
+
+## ⏳ Stage 3 — Production Control Flow
+
+**Status:** Coming Soon
+
+Topics will include:
+
+- Conditional Edges
+- Parallel Execution
+- Human-in-the-Loop
+- Interrupts
+- Production Workflows
+
+---
+
+## 🛠 Technologies
+
+- Python
+- LangChain
+- LangGraph
+- OpenAI API
+- Tavily Search
+- Jupyter Notebook
+
+---
+
+## 🎯 Repository Goal
+
+This repository is designed to progressively build practical AI engineering skills by combining theoretical concepts with real-world implementations.
+
+Each stage introduces new concepts, followed by hands-on notebooks and a capstone project to reinforce the learning process.
+
+---
+
+## 📈 Progress
+
+| Stage | Status |
+|--------|--------|
+| Stage 1 — Agent Foundations | ✅ Completed |
+| Stage 2 — Memory & State Management | 🚧 In Progress |
+| Stage 3 — Production Control Flow | ⏳ Upcoming |
+
+---
+
+⭐ If you find this repository useful, feel free to star it.
